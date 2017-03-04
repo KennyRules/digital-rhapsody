@@ -1,7 +1,7 @@
 {
   "name": "lazybones",
   "version": "0.1.0",
-  "main": "index.ts",
+  "main": "index.html",
   "author": "Drew Diamantoukos",
   "license": "MIT",
   "devDependencies": {

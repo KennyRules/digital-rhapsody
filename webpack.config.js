@@ -2,7 +2,7 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     filename: 'bundle.js',
-    path: __dirname
+    path:__dirname + '/dist'
   },
   module: {
     rules: [
@@ -26,4 +26,8 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"]
   },
   devtool: 'inline-source-map',
+  externals: {
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },
 };
