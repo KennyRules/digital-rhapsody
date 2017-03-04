@@ -20,7 +20,7 @@ module.exports = {
       enforce: 'pre',
       test: /\.tsx?$/,
       use: "source-map-loader"
-    }
+    },
   ]},
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
