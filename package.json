@@ -1,32 +1,32 @@
 {
-  "name": "lazybones",
+  "name": "digital-rhapsody",
   "version": "0.1.0",
   "main": "index.html",
   "author": "Drew Diamantoukos",
   "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^15.0.14",
-    "@types/react-dom": "^0.14.23",
-    "eslint": "^3.17.0",
-    "husky": "^0.13.2",
-    "inline-source-map": "^0.6.2",
-    "npm-run-all": "^4.0.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "source-map-loader": "^0.1.6",
-    "ts-loader": "^2.0.1",
-    "tslint": "^4.5.1",
-    "tslint-eslint-rules": "^3.4.0",
-    "tslint-react": "^2.4.0",
-    "typescript": "^2.2.1",
-    "webpack": "^2.2.1"
-  },
-  "dependencies": {
-    "tsc": "^1.20150623.0"
-  },
   "scripts": {
     "lint": "npm-run-all lint:*",
     "lint:src": "tslint -c tslint.json src/**/*",
     "prepush": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "eslint": "^4.2.0",
+    "husky": "^0.14.3",
+    "inline-source-map": "^0.6.2",
+    "npm-run-all": "^4.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.3.1",
+    "tslint": "^5.5.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react": "^3.0.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "tsc": "^1.20150623.0"
   }
 }
