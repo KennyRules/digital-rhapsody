@@ -5,6 +5,7 @@
     "tslint-eslint-rules"
   ],
   "rules": {
-    "quotemark": [true, "single","jsx-single"]
+    "quotemark": [true, "single","jsx-single"],
+    "no-console": false
   }
 }
