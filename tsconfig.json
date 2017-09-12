@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "es2016",
+      "es6",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "noImplicitAny": true,
     "outDir": "./dist/",
     "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "alwaysStrict": true
+    "strictNullChecks": true,
+    "target": "es6"
   }
 }
